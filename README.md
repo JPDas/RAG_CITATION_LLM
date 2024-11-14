@@ -9,3 +9,8 @@ Rquired finetune of the code : To generate citations, you just need to keep meta
     Display the citations in your answer in this format - "[link text](source idx)"
 
 Example: https://www.perplexity.ai/
+
+Question:"What is principal component analysis?"
+Answer: Principal Component Analysis (PCA) is a method used to rotate a dataset in such a way that the new features, known as principal components, are statistically uncorrelated. This process involves finding the direction of maximum variance in the data, which is labeled as "Component 1," and then selecting a subset of these new features based on their importance in explaining the data. PCA is commonly used for dimensionality reduction and feature extraction, allowing for a more efficient representation of the data that is better suited for analysis [1].
+
+[1] means , LLM gets the inputs from first chunk.
