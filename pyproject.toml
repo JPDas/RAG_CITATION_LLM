@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag-citation"
+version = "0.1.0"
+description = ""
+authors = ["JPDas <jprakash.das@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.7"
+pdfplumber = "^0.11.4"
+ipython = "^8.29.0"
+langchain-community = "^0.3.5"
+langchain-openai = "^0.2.6"
+faiss-cpu = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
